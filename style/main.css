@@ -38,7 +38,7 @@ header nav a:hover {
 /*Filme principal*/
 .filme-principal {
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/capa-house.jpg');
+    background: linear-gradient(to right, rgba(0,0,0,.50), rgba(0,0,0,.50)), url('./img/capa-house.jpg');
     height: 400px;
     background-size: cover;
     display: flex;
@@ -78,6 +78,8 @@ header nav a:hover {
 .filme-principal .container {
     width: 70%;
 }
+
+/*Carrossel*/
 .box-filme {
     height: 100%;
     width: 100%;
